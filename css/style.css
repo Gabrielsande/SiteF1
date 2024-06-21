@@ -72,11 +72,12 @@ main{
 /*Configuração do section 1*/
 #section1{
     background-color: rgba(160, 144, 144, 0.295);
-    width: 100vw;
+    width: 100%;
     margin: auto;
     padding: 20px;
     border: 2px solid brown;
 }
+
 #section1 p{
     font-size: large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -92,13 +93,14 @@ main{
 }
 .img1 p{
     padding: 50px;
+    justify-content: baseline;
 }
 /*fim da configuração do section 1*/
 
 /*Configuração do section 2*/
 #section2{
     background-color:rgba(160, 144, 144, 0.295);
-    width: 100vw;
+    width: 100%;
     margin: auto;
     padding: 20px;
     border: 2px solid black;  
@@ -134,7 +136,7 @@ table,td{
 }
 #section3{
     background-color:rgba(160, 144, 144, 0.295);
-    width: 100vw;
+    width: 100%;
     margin: auto;
     padding: 20px;
     border: 2px solid black;  
@@ -268,6 +270,13 @@ article{
     padding: 0px;
     background-color: rgba(44, 40, 40, 0.295);
     font-size: larger;
+    gap: 20px;
+}
+.contato2 img{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;  
 }
 
 /*Fim da Configuração sobre.html*/
